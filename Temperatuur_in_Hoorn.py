@@ -15,9 +15,9 @@ time = (datetime.datetime.now().strftime("%H:%M"))
 day_of_the_week = (datetime.date.today().strftime("%A"))
 
 # key ophalen bij https://home.openweathermap.org/api_keys
-key = "233701779ae96b795e27bee825342a90"
+key = "*** eigen key invullen ***"
 
-# plaatsen nabij Lutjebroek zijn Hoorn en Venhuizen
+# voorbeeld is Hoorn
 place = "Hoorn"
 
 # bron is openweathermap.org
@@ -32,7 +32,7 @@ humidity = data['main']['humidity']
 temp_min = data['main']['temp_min']
 temp_max = data['main']['temp_max']
 
-# uitlezen waarde, ik krijg het nog niet netjes naast elkaar
+# uitlezen waarden
 print ("Op " + date + " om " + time + " uur, was het in " + (place) + " " + str(temp) + " graden.")
 print ("De luchtvochtigheid was " + str(humidity) + "%.")
 print ("De minimum temperatuur vandaag is " + str(temp_min) + " graden.")
