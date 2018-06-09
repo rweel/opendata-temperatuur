@@ -12,7 +12,6 @@ import time
 # set parameters
 date = (datetime.datetime.now().strftime("%d-%m-20%y"))
 time = (datetime.datetime.now().strftime("%H:%M"))
-day_of_the_week = (datetime.date.today().strftime("%A"))
 
 # key ophalen bij https://home.openweathermap.org/api_keys
 key = "*** eigen key invullen ***"
